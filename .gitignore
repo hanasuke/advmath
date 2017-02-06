@@ -129,3 +129,6 @@ build-iPhoneSimulator/
 .rvmrc
 
 # End of https://www.gitignore.io/api/macos,emacs,ruby
+
+# ignore tweets data
+*tweets*
