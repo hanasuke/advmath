@@ -1,6 +1,5 @@
 require 'awesome_print'
 require 'csv'
-require 'natto'
 
 
 original_tweet_file = ARGV[0]
