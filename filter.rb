@@ -11,7 +11,7 @@ own_tweets = []
 
 original_csv_data.each do |csv|
   # そもそも RT,shindanmaker,swarm,hatenaなどのURLが含まれてたら対象から除外する
-  unless csv[2] =~ /(RT|shindanmaker|swarmapp|b\.hatena\.ne\.jp|pixiv|youtube|gigazine|niconico|speakerdeck|slideshare|[tT]ogetter|htn\.to)/
+  unless csv[2] =~ /(RT|shindanmaker|swarmapp|b\.hatena\.ne\.jp|pixiv|youtube|gigazine|niconico|speakerdeck|slideshare|[tT]ogetter|htn\.to|b\.hatena)/
     csv[2].gsub!(/(\r\n|\n|\r|\f)/,'') # 改行文字を削除
     csv[2].gsub!(/http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/,'') # URLを排除
     csv[2].gsub!(/@[A-Za-z0-9_]+/, '') # Twitterユーザ名を削除
