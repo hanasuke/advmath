@@ -4,3 +4,4 @@ source "https://rubygems.org"
 # gem "rails"
 gem 'awesome_print'
 gem 'natto'
+gem 'twitter'
