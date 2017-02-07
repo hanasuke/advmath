@@ -132,3 +132,6 @@ build-iPhoneSimulator/
 
 # ignore tweets data
 *tweets*
+
+# ignore some environment variables
+.env

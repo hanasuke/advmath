@@ -5,3 +5,5 @@ source "https://rubygems.org"
 gem 'awesome_print'
 gem 'natto'
 gem 'twitter'
+
+gem 'dotenv'
