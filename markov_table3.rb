@@ -27,7 +27,7 @@ class MarkovTable3
     loop do
       tweet << w3
       w1, w2 = w2, w3
-      w4 = @word_list[w1][w2].sample
+      w3 = @word_list[w1][w2].sample
       break if w3 == END_WORD
       break if (tweet + w3).length >= TWEET_LENGTH
     end
